@@ -38,18 +38,14 @@
 
 <main>
 
-  <!-- 1 · ANKUNFT: scrub. Die Drohne kommt aus dem Nebel zum Hof. Kein Text-Gedränge, ein Satz. -->
-  <section id="hof" data-sc-act="scrub" data-sc-span="3" data-sc-dwell="0.34" class="ground-night">
-    <div data-sc-stage>
-      <img class="sc-stage__poster" src="assets/hero-poster.webp" alt="" width="1600" height="845">
-      <video data-sc-scrub data-sc-src="assets/hero.mp4" data-sc-src-mobile="assets/hero-m.mp4" muted playsinline aria-hidden="true"></video>
-      <div class="sc-scrim sc-scrim--lead" aria-hidden="true"></div>
-      <div class="hero-veil" aria-hidden="true"></div>
-      <div class="sc-copy sc-copy--lead hero" data-sc-cue="0 0.8 0">
-        <h1 class="sc-display sc-display--xl" data-sc-kinetic="lines">Bio-Weiderind vom Hof Pemperreith.</h1>
-        <p class="sc-lede">Seit 1771 am selben Hügel im südlichen Waldviertel.</p>
-        <a class="btn" href="https://wa.me/436998175894?text=Hallo%2C%20ich%20m%C3%B6chte%20Rind%20f%C3%BCr%20die%20n%C3%A4chste%20Auslieferung%20reservieren." data-cta>Rind reservieren</a>
-      </div>
+  <!-- 1 · ANKUNFT: kurzer Clip in Dauerschleife, kein Scroll-Film. Poster als Rückfall. -->
+  <section id="hof" class="hero ground-night">
+    <video class="hero__clip" muted loop playsinline autoplay preload="auto" poster="assets/hero-poster.webp" data-src="assets/hero-loop.mp4" data-src-mobile="assets/hero-loop-m.mp4" data-poster-mobile="assets/hero-poster-m.webp" aria-hidden="true"></video>
+    <div class="hero__veil" aria-hidden="true"></div>
+    <div class="hero__copy sc-wrap">
+      <h1 class="sc-display sc-display--xl">Bio-Weiderind vom Hof Pemperreith.</h1>
+      <p class="sc-lede">Seit 1771 am selben Hügel im südlichen Waldviertel.</p>
+      <a class="btn" href="https://wa.me/436998175894?text=Hallo%2C%20ich%20m%C3%B6chte%20Rind%20f%C3%BCr%20die%20n%C3%A4chste%20Auslieferung%20reservieren." data-cta>Rind reservieren</a>
     </div>
   </section>
 

@@ -17,6 +17,8 @@ p.on('pageerror', e => errs.push('pageerror ' + e.message));
 p.on('console', m => { if (m.type() === 'error') errs.push('console ' + m.text()); });
 p.on('requestfailed', r => errs.push('reqfail ' + r.url()));
 const root = path.resolve('.');
+await p.route('**/assets/hero-loop.mp4', r => r.fulfill({ status: 200, contentType: 'video/webm', body: fs.readFileSync(root + '/build/loop.webm') }));
+await p.route('**/assets/hero-loop-m.mp4', r => r.fulfill({ status: 200, contentType: 'video/webm', body: fs.readFileSync(root + '/build/loop-m.webm') }));
 await p.route('**/assets/hero.mp4', r => r.fulfill({ status: 200, contentType: 'video/webm', body: fs.readFileSync(root + '/build/hero.webm') }));
 await p.route('**/assets/hero-m.mp4', r => r.fulfill({ status: 200, contentType: 'video/webm', body: fs.readFileSync(root + '/build/hero-m.webm') }));
 if (apiState !== 'off') {
@@ -37,7 +39,7 @@ for (let i = 0; i <= N; i++) {
   const y = Math.round(total * i / N);
   await p.evaluate(y => scrollTo(0, y), y);
   await p.waitForTimeout(i === 0 ? 900 : 650);
-  const info = await p.evaluate(() => ({ sw: document.documentElement.scrollWidth, cw: innerWidth, vt: (document.querySelector('video[data-sc-scrub]')||{}).currentTime }));
+  const info = await p.evaluate(() => ({ sw: document.documentElement.scrollWidth, cw: innerWidth, vt: (document.querySelector('.hero__clip')||{}).currentTime, vp: (document.querySelector('.hero__clip')||{}).paused }));
   rows.push({ i, y, ...info });
   await p.screenshot({ path: `${OUT}/${String(i).padStart(2, '0')}.png` });
 }

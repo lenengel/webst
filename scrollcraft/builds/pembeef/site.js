@@ -3,6 +3,21 @@
   'use strict';
   ScrollCraft.mount(document.body);
 
+  /* Hero-Clip: Schleife ohne Scroll. Handy bekommt den Hochformat-Ausschnitt, reduzierte Bewegung nur das Standbild. */
+  var clip = document.querySelector('.hero__clip');
+  if (clip) {
+    var small = matchMedia('(max-width: 700px)').matches;
+    var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (small) clip.setAttribute('poster', clip.dataset.posterMobile);
+    if (still) { clip.removeAttribute('autoplay'); clip.pause(); }
+    else {
+      clip.src = small ? clip.dataset.srcMobile : clip.dataset.src;
+      var go = function () { var p = clip.play(); if (p && p.catch) p.catch(function () {}); };
+      clip.addEventListener('canplay', go, { once: true });
+      go();
+    }
+  }
+
   var ids = ['hof', 'wir', 'weide', 'bekommen', 'kuhhperation', 'reservieren'];
   var papers = { wir: 1, bekommen: 1, kuhhperation: 1 };
   var trail = document.querySelector('.trail');
