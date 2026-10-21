@@ -25,13 +25,15 @@ Biobauernhof Pemperreith, Hofamt Priel (südliches Waldviertel, Blick in die Vor
 - Partnerbetrieb **Biobauernhof Prannleithen** (prannleithen.at, empfängt auch Urlaubsgäste): Rinder kommen mit 10 bis 12 Monaten, bleiben noch 5 bis 8 Monate auf den dortigen Weiden. Danach Schlachter in Erlauf, **Kohl & Babinger**.
   - Textvorschlag des Nutzers: "Der BioHof Prannleithen empfängt nicht nur Urlaubsgäste, sondern hier verbringen auch unsere PEMBEEF Rinder eine Zeit. Sie nutzen die Weiden dort, um noch ideal zu reifen. Danach kommen sie zum Schlachter in Erlauf, Kohl & Babinger."
 - Verkauf: d'Greisslerei (St. Leonhard am Forst), SPAR Yspertal (ausgewählte Produkte). Direkt: WhatsApp, E-Mail, Telefon (+43 699 81758949, info@pembeef.at). Kleiner Shop zum **Reservieren** für die nächste Auslieferung, mit nächstem Liefertermin (API vorhanden). **Reservieren ist immer nötig.**
+- Hof besteht seit **1771** (bestätigt). Der Stier heißt **TORO** (bestätigt). Hinweis: die Seite von d'Greisslerei nennt noch 1815 und "mehr als 20 Jahre" bio, dort korrigieren lassen.
+- d'Greisslerei, Hauptplatz 6, 3243 St. Leonhard am Forst. Mo, Mi, Do, Fr 8 bis 18 Uhr, Di 8 bis 13 Uhr, Sa 8 bis 12 Uhr. Tel. 0664 177 00 89, heimat@d-greisslerei.at. Dort läuft eine Online-Bestellung für Rind (Pakete Basic 4 kg und Family 8 kg oder Einzelstücke, mit Abholtermin). Preise dort sind Händlerpreise, nicht übernehmen ohne Freigabe.
+- SPAR Yspertal, Hauptstraße 35, 3683 Yspertal (Adresse aus der Standort-URL, Öffnungszeiten ausstehend, spar.at blockt automatische Abrufe).
+- WhatsApp und Telefon: +43 699 81758949.
 - Kontakt: Pemperreith 4, 3681 Hofamt Priel.
 
 ## Offen, nicht erfinden
-- Gründungsjahr des Hofs: Altentwurf `neu.` sagt 1771, `dev.` sagt 1815. Bis zur Klärung nicht verwenden.
-- Liefertermin-API (Endpunkt, Felder, Reservierungs-Schnittstelle), WhatsApp-Nummer, Adressen und Öffnungszeiten der Verkaufsstellen.
-- Der Name des Stiers Toni stammt aus einem Altentwurf, bestätigen.
-- `pembeef.at` zeigt derzeit eine fremde Shirt-Seite (vermutlich gehackt). Vor dem Livegang klären.
+- Liefertermin-API (Endpunkt, Felder, Reservierungs-Schnittstelle): Nutzer teilt das Repo. SPAR-Öffnungszeiten.
+- `pembeef.at` zeigt derzeit eine fremde Shirt-Seite (vermutlich gehackt). Nutzer repariert es gerade selbst.
 
 ## Journey (6 Beats)
 1. Ankunft: der Hof am Hügel, Blick in die Voralpen. (WER)
