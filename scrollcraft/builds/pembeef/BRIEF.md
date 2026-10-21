@@ -85,3 +85,10 @@ Papier (warmes Elfenbein), Gras- und Moosgrün, Rinderrot als einzige Akzentfarb
 - Google-Fotos-Album "PemBeef" (https://photos.app.goo.gl/M6DfpyUKotvCp7WTA), per Link abrufbar, 300 Bilder. Inhalt: Weide mit Voralpenblick bei Sonnenauf- und -untergang (stark, Goldlicht), Herde, Holzbrunnen, Stall mit Lukas und Kälbern, Fleischprodukte (Studiofotos, Teller), Logos und alte Entwürfe.
 - Lokaler Ordner `D:\DEV\PEMBEEF_Website\Fotos` ist für die Cloud-Session nicht erreichbar. Der Unterordner "Luki und Julia" (Porträts, T-Shirt-Logo ausbessern) fehlt noch.
 - Ausschuss: Menükarten-Vorlage, Bagger- und Baustellenfotos, 2016-Schnitzereien, doppelte Serien.
+
+## Fotos aus den Alben (21.10.2026, Originale mit EXIF gelesen)
+- `src/fotos/prannleithen/` (15 Bilder, Album "Kuhhperation"): Gruppenfotos beider Familien an der Weide, ein Rinderporträt. Fotograf laut EXIF: **Matthias Kainz** (Copyright).
+- `src/fotos/portraet/` (2 Bilder, Album "Julia & Lukas"): Porträt, weißes T-Shirt mit Bio-Abzeichen. Fotografin: **Eva Lechner**.
+- `src/fotos/hund/` (1 Bild): Louis Larry vor Herde und Abendlicht. Kein Fotografeneintrag (Handyfoto), Credit offen.
+- Hofporträt `src/foto-pembeef.jpg`: **Manuel Tauber-Romieri** (EXIF schreibt "Manuelt", prüfen).
+- Credits je Datei in `src/fotos/credits.json`. Bearbeitung (T-Shirt-Logo ersetzen) braucht die Zustimmung der Fotografin.
