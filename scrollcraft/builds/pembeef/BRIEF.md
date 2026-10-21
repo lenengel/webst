@@ -93,3 +93,7 @@ Papier (warmes Elfenbein), Gras- und Moosgrün, Rinderrot als einzige Akzentfarb
 - Hofporträt `src/foto-pembeef.jpg`: **Manuel Tauber-Romieri** (EXIF schreibt "Manuelt", prüfen).
 - Credits je Datei in `src/fotos/credits.json`. Eva Lechner hat der Bearbeitung zugestimmt (bestätigt von Lukas). Offen: Logo ersetzen oder nur retuschieren.
 - Drohnenvideo (YouTube mcjF9ceNamQ): aus der Cloud nicht ladbar (Bot-Sperre). Lukas lädt die Datei selbst herunter und legt sie ab.
+
+## Drohnenvideo und Retusche (21.10.2026)
+- `src/footage/drohne-nebelmeer.mp4`: 2:47 min, 1280x676, 25 fps (Google-Fotos-Album "PEMPERREITH"). Sonnenaufgang über einem Nebelmeer, ab etwa 1:45 Anflug auf den Hof am Hügel. Niedrige Auflösung und dunkel, braucht Grading. Gedacht als Eröffnung (Ankunft).
+- Shirts retuschiert (Bio-Austria-Abzeichen entfernt, Lukas bestätigt, Eva Lechner stimmt zu). Kleiner dunkler Rest am Träger von Julias Tasche in Bild 01. Passant im Hintergrund von Bild 01 beim Zuschnitt rausnehmen.
