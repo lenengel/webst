@@ -13,8 +13,9 @@ Langsam fliegen. Jede Einstellung 15 bis 20 s, damit das Scrubben Platz hat. Am 
 | 4 | Weide | Seitlicher Flug mit der Herde, Voralpenblick | Peak, Kreislauf |
 | 5 | Kreislauf | Handy: Rinder am Heu und an der Silage, Mist, Acker mit Getreide, frisches Gras | Kreislauf zeigen |
 | 6 | Menschen | Handy: Julia und Lukas bei den Rindern, Toro | WER, Vertrauen |
-| 7 | Prannleithen | Drohne oder Handy: die dortigen Weiden, Rinder | Partnerbetrieb |
+| 7 | Prannleithen | entfällt: es gibt gemeinsame Partnerfotos | Partnerbetrieb |
 | 8 | Tisch | Handy, Tageslicht: Fleisch, Paket, Übergabe | WAS man bekommt |
 
-Rechtliches: Drohne nur nach den EU-Drohnenregeln, keine Personen überfliegen, Prannleithen vorher fragen.
+Gefilmt wird nur am eigenen Hof. Prannleithen kommt über Partnerfotos.
+Rechtliches: Drohne nur nach den EU-Drohnenregeln, keine Personen überfliegen.
 Dateien als Original (nicht über WhatsApp schicken), in den Drive-Ordner oder ins Repo unter `scrollcraft/builds/pembeef/src/footage/`.

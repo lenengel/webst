@@ -14,7 +14,7 @@ Biobauernhof Pemperreith, Hofamt Priel (südliches Waldviertel, Blick in die Vor
 5. **Eine Sache, die keine andere Seite tut:** Autorenentscheidung: die Rinder-Reise ist die Navigation (Karte), und der nächste Liefertermin steht live im Weg. Signature Move siehe unten.
 6. **Spanne:** Editorial / erdig, warm, papierhell. Kein Steakhouse-Dunkel (verworfener Entwurf `neu.`).
 7. **Eine Welt oder Szenen:** Nutzer: "ja, der Gang über den Hof". Gewählt: **eine durchgehende Welt**, echte Geografie (Hof, Weide, Prannleithen, Erlauf, Verkaufsstelle).
-8. **Assets:** Logo (Stempel-Siegel, SVG, bleibt unverändert), Fotos aus Drive, Instagram @pembeef (via Google Fotos, folgt), Drohnenvideo möglich (Nutzer bietet an).
+8. **Assets:** Logo (Stempel-Siegel, SVG, bleibt unverändert), Fotos aus Drive, Instagram @pembeef (via Google Fotos, folgt), Drohnenvideo möglich (nur am eigenen Hof). Prannleithen: gemeinsame Partnerfotos statt Film (Nutzer).
 
 ## Fakten (belegt durch den Nutzer)
 - Bio Austria Richtlinien, EU-Bio. Seit über 25 Jahren bio (aus Altentwurf, bestätigen).
