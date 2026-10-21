@@ -72,3 +72,16 @@ Der **Rinderpfad**: ein Faden aus Gras und Papier, der sich beim Scrollen über 
 
 ## Designrichtung (Entwurf)
 Papier (warmes Elfenbein), Gras- und Moosgrün, Rinderrot als einzige Akzentfarbe, Tinte aus dem Schwarz des Logos. Serife für Überschriften (redaktionell, nicht Steakhouse), ruhige Groteske für Fließtext. Das Stempel-Logo bleibt unverändert und wird als Siegel verwendet.
+
+## Menschen am Hof (Nutzer, wörtlich übernommen als Material, Texte werden ausformuliert)
+- **Julia** (Gappmaier): kommt aus Salzburg und aus der Gastronomie, ist auf den Hof gezogen. Konnte sich vorher nicht vorstellen, auf einem Hof zu leben, liebt jetzt die Rinder. Von Lukas "Kuh-Gewerkschaft" genannt, weil sie sich so um die Tiere sorgt. Spezialgebiet: die Rinder auf die nächste Weide treiben. Neben der Arbeit am Hof bei Bio Austria, kümmert sich darum, dass Bio in Schulen und in der Verbreitung ankommt.
+- **Lukas**: Text kommt noch vom Nutzer.
+- **Hermann und Martha** (Eltern von Lukas): helfen noch fleißig mit. Martha ist die Nummer eins am Traktor, um Traktorarbeit muss man sich mit ihr streiten. Hermann sorgt dafür, dass alles aufgeräumt und dekoriert ist.
+- Geschwister, Schwager und Schwägerinnen helfen bei Bedarf.
+- **Hofhund Louis Larry**, Liebling aller Kinder. Dazu Katzen, Bienen und Hühner.
+- Die Zusammenarbeit mit Prannleithen heißt intern **"Kuhhperation"**. Wird auf der Seite übernommen.
+
+## Foto-Bestand
+- Google-Fotos-Album "PemBeef" (https://photos.app.goo.gl/M6DfpyUKotvCp7WTA), per Link abrufbar, 300 Bilder. Inhalt: Weide mit Voralpenblick bei Sonnenauf- und -untergang (stark, Goldlicht), Herde, Holzbrunnen, Stall mit Lukas und Kälbern, Fleischprodukte (Studiofotos, Teller), Logos und alte Entwürfe.
+- Lokaler Ordner `D:\DEV\PEMBEEF_Website\Fotos` ist für die Cloud-Session nicht erreichbar. Der Unterordner "Luki und Julia" (Porträts, T-Shirt-Logo ausbessern) fehlt noch.
+- Ausschuss: Menükarten-Vorlage, Bagger- und Baustellenfotos, 2016-Schnitzereien, doppelte Serien.
