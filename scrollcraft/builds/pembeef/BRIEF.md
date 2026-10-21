@@ -89,6 +89,7 @@ Papier (warmes Elfenbein), Gras- und Moosgrün, Rinderrot als einzige Akzentfarb
 ## Fotos aus den Alben (21.10.2026, Originale mit EXIF gelesen)
 - `src/fotos/prannleithen/` (15 Bilder, Album "Kuhhperation"): Gruppenfotos beider Familien an der Weide, ein Rinderporträt. Fotograf laut EXIF: **Matthias Kainz** (Copyright).
 - `src/fotos/portraet/` (2 Bilder, Album "Julia & Lukas"): Porträt, weißes T-Shirt mit Bio-Abzeichen. Fotografin: **Eva Lechner**.
-- `src/fotos/hund/` (1 Bild): Louis Larry vor Herde und Abendlicht. Kein Fotografeneintrag (Handyfoto), Credit offen.
+- `src/fotos/hund/` (1 Bild): Louis Larry vor Herde und Abendlicht. Aufgenommen von Lukas Enengel (bestätigt).
 - Hofporträt `src/foto-pembeef.jpg`: **Manuel Tauber-Romieri** (EXIF schreibt "Manuelt", prüfen).
-- Credits je Datei in `src/fotos/credits.json`. Bearbeitung (T-Shirt-Logo ersetzen) braucht die Zustimmung der Fotografin.
+- Credits je Datei in `src/fotos/credits.json`. Eva Lechner hat der Bearbeitung zugestimmt (bestätigt von Lukas). Offen: Logo ersetzen oder nur retuschieren.
+- Drohnenvideo (YouTube mcjF9ceNamQ): aus der Cloud nicht ladbar (Bot-Sperre). Lukas lädt die Datei selbst herunter und legt sie ab.

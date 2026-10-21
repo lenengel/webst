@@ -93,16 +93,18 @@
   "artist": "EVA LECHNER",
   "copyright": null,
   "orig": "4900x3265",
-  "date": "2026:09:23 22:44:13"
+  "date": "2026:09:23 22:44:13",
+  "edit_consent": "Eva Lechner, bestätigt von Lukas (21.10.2026)"
  },
  "fotos/portraet/julia-lukas-01.jpg": {
   "artist": "EVA LECHNER",
   "copyright": null,
   "orig": "4900x3265",
-  "date": "2026:09:23 22:44:54"
+  "date": "2026:09:23 22:44:54",
+  "edit_consent": "Eva Lechner, bestätigt von Lukas (21.10.2026)"
  },
  "fotos/hund/louis-00.jpg": {
-  "artist": null,
+  "artist": "Lukas Enengel",
   "copyright": null,
   "orig": "3968x2976",
   "date": "2017:06:15 20:25:44"
