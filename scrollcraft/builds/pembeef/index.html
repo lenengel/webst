@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="de-AT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PEMBEEF Biobauernhof Pemperreith</title>
+<meta name="description" content="Bio-Weiderind vom Biobauernhof Pemperreith im südlichen Waldviertel. Eigenes Futter, Weide von April bis November, Partnerbetrieb Prannleithen. Hier erfährst du, wer wir sind und wo du es bekommst.">
+<meta name="pembeef-api" content="">
+<meta property="og:title" content="PEMBEEF · Bio-Weiderind vom Hof Pemperreith">
+<meta property="og:description" content="Bio-Weiderind aus dem südlichen Waldviertel. Reservieren für die nächste Auslieferung.">
+<meta property="og:image" content="assets/img/weide-sonne.webp">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="scrollcraft.css">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+<header class="bar">
+  <a class="bar__mark" href="#hof" aria-label="PEMBEEF, zum Anfang">
+    <img src="assets/logo-pembeef.svg" width="56" height="56" alt="PEMBEEF Biobauernhof Pemperreith">
+  </a>
+  <a class="bar__cta" href="https://wa.me/436998175894?text=Hallo%2C%20ich%20m%C3%B6chte%20Rind%20f%C3%BCr%20die%20n%C3%A4chste%20Auslieferung%20reservieren." data-cta>Rind reservieren</a>
+</header>
+
+<nav class="trail" aria-label="Rinderpfad: Sprungmarken">
+  <div class="trail__line" aria-hidden="true"><span class="trail__fill"></span><span class="trail__cow"></span></div>
+  <ol class="trail__list">
+    <li><a href="#hof" data-st="hof"><span>Hof</span></a></li>
+    <li><a href="#wir" data-st="wir"><span>Menschen</span></a></li>
+    <li><a href="#weide" data-st="weide"><span>Weide</span></a></li>
+    <li><a href="#bekommen" data-st="bekommen"><span>Was du bekommst</span></a></li>
+    <li><a href="#kuhhperation" data-st="kuhhperation"><span>Prannleithen</span></a></li>
+    <li><a href="#reservieren" data-st="reservieren"><span>Reservieren</span></a></li>
+  </ol>
+</nav>
+
+<main>
+
+  <!-- 1 · ANKUNFT: scrub. Die Drohne kommt aus dem Nebel zum Hof. Kein Text-Gedränge, ein Satz. -->
+  <section id="hof" data-sc-act="scrub" data-sc-span="3" data-sc-dwell="0.34" class="ground-night">
+    <div data-sc-stage>
+      <img class="sc-stage__poster" src="assets/hero-poster.webp" alt="" width="1600" height="845">
+      <video data-sc-scrub data-sc-src="assets/hero.mp4" data-sc-src-mobile="assets/hero-m.mp4" muted playsinline aria-hidden="true"></video>
+      <div class="sc-scrim sc-scrim--lead" aria-hidden="true"></div>
+      <div class="hero-veil" aria-hidden="true"></div>
+      <div class="sc-copy sc-copy--lead hero" data-sc-cue="0 0.8 0">
+        <h1 class="sc-display sc-display--xl" data-sc-kinetic="lines">Bio-Weiderind vom Hof Pemperreith.</h1>
+        <p class="sc-lede">Seit 1771 am selben Hügel im südlichen Waldviertel.</p>
+        <a class="btn" href="https://wa.me/436998175894?text=Hallo%2C%20ich%20m%C3%B6chte%20Rind%20f%C3%BCr%20die%20n%C3%A4chste%20Auslieferung%20reservieren." data-cta>Rind reservieren</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 · MENSCHEN: flow auf Papier, Porträt mit Wipe -->
+  <section id="wir" class="sc-section ground-paper" data-sc-act="flow">
+    <div class="sc-wrap people">
+      <div class="people__head sc-stack" data-sc-in data-sc-stagger="70">
+        <p class="sc-label">Wer wir sind</p>
+        <h2 class="sc-display sc-display--lg">Wir sind Julia und Lukas.</h2>
+        <p class="sc-lede">Hinter PEMBEEF stehen zwei Menschen, ihre Familie und eine Herde auf einem Hügel mit Blick bis in die Voralpen.</p>
+      </div>
+      <figure class="people__photo" data-sc-reveal="left" data-sc-reveal-at="0.12 0.5">
+        <img src="assets/img/julia-lukas.webp" srcset="assets/img/julia-lukas-m.webp 900w, assets/img/julia-lukas.webp 2000w" sizes="(max-width: 800px) 92vw, 46vw" width="2000" height="1333" alt="Julia und Lukas lächeln sich an, beide in weißen T-Shirts, im Hintergrund Bäume.">
+        <figcaption>Foto: Eva Lechner</figcaption>
+      </figure>
+      <div class="people__bios" data-sc-in data-sc-stagger="80">
+        <article>
+          <h3>Julia</h3>
+          <p>Julia kommt aus Salzburg und aus der Gastronomie. Sich ein Leben auf einem Hof vorzustellen, fiel ihr früher schwer. Heute liebt sie die Rinder. Lukas nennt sie die „Kuh-Gewerkschaft“, weil sie sich so um das Wohl der Tiere sorgt. Ihr Spezialgebiet: die Herde auf die nächste Weide treiben. Neben dem Hof arbeitet sie bei Bio Austria und setzt sich dafür ein, dass Bio in die Schulen kommt.</p>
+        </article>
+        <article>
+          <!-- TODO Lukas: eigenen Text einsetzen. Dieser Satz ist ein Platzhalter aus belegten Fakten. -->
+          <h3>Lukas</h3>
+          <p>Lukas führt den Hof mit Julia und kümmert sich um die Rinder, die Weiden und das Futter, das am Hof wächst.</p>
+        </article>
+        <article>
+          <h3>Martha und Hermann</h3>
+          <p>Lukas’ Eltern helfen noch fleißig mit. Martha ist die Nummer eins am Traktor: Wer eine Traktorarbeit will, muss sich mit ihr streiten. Hermann sorgt dafür, dass alles aufgeräumt und schön dekoriert ist. Dazu kommen Geschwister, Schwager und Schwägerinnen, wenn sie gebraucht werden.</p>
+        </article>
+        <article>
+          <h3>Louis Larry</h3>
+          <p>Der Hofhund, Liebling aller Kinder. Dazu gehören noch Katzen, Hühner und Bienen.</p>
+        </article>
+      </div>
+      <figure class="people__dog" data-sc-in>
+        <img src="assets/img/louis.webp" srcset="assets/img/louis-m.webp 900w, assets/img/louis.webp 2000w" sizes="(max-width: 800px) 92vw, 80vw" width="2000" height="1500" loading="lazy" alt="Hofhund Louis Larry sitzt im Abendlicht auf der Wiese, hinter ihm grast die Herde.">
+        <figcaption>Louis Larry mit der Herde im Rücken. Foto: Lukas Enengel</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 3 · WOFÜR: der Kreislauf, pin. Der Peak. -->
+  <section id="weide" class="ground-moss" data-sc-act="pin" data-sc-span="4.6">
+    <div data-sc-stage class="cycle">
+      <img class="cycle__bg" data-sc-parallax="-1.2" src="assets/img/weide-sonne.webp" srcset="assets/img/weide-sonne-m.webp 900w, assets/img/weide-sonne.webp 2000w" sizes="100vw" width="2000" height="1480" alt="">
+      <div class="cycle__veil" aria-hidden="true"></div>
+      <div class="cycle__grid">
+        <div class="cycle__text">
+          <p class="sc-label">Wofür wir stehen</p>
+          <h2 class="sc-display sc-display--lg">Bei uns bleibt alles im Kreis.</h2>
+          <div class="cycle__steps">
+            <p data-sc-cue="0.02 0.3 0.25">Das Gras wächst auf unseren 20 Hektar Grünland. Daraus werden Heu und Grünlandsilage für den Winter.</p>
+            <p data-sc-cue="0.27 0.54">Von April bis November fressen die Rinder es draußen selbst, auf der Weide, mit ihren Müttern in der Herde.</p>
+            <p data-sc-cue="0.51 0.78">Was sie hinterlassen, düngt die Wiese: auf der Weide gleich an Ort und Stelle, auf den übrigen Flächen mit dem Mist vom Hof.</p>
+            <p data-sc-cue="0.75">Dünger kaufen wir keinen zu. Auch das wenige Getreide, das die Rinder zum Locken bekommen, wächst auf unseren 3 Hektar Acker.</p>
+          </div>
+        </div>
+        <figure class="cycle__fig">
+          <svg viewBox="0 0 440 440" role="img" aria-label="Kreislauf: Gras wächst, das Rind frisst es, der Mist düngt den Boden, daraus wächst wieder Gras.">
+            <circle class="ring ring--base" cx="220" cy="220" r="150"/>
+            <path class="ring ring--a1" pathLength="1" d="M220 70 A150 150 0 0 1 370 220"/>
+            <path class="ring ring--a2" pathLength="1" d="M370 220 A150 150 0 0 1 220 370"/>
+            <path class="ring ring--a3" pathLength="1" d="M220 370 A150 150 0 0 1 70 220"/>
+            <path class="ring ring--a4" pathLength="1" d="M70 220 A150 150 0 0 1 220 70"/>
+            <g class="node node--1"><circle cx="220" cy="70" r="9"/><text x="220" y="42" text-anchor="middle">Gras</text></g>
+            <g class="node node--2"><circle cx="370" cy="220" r="9"/><text x="390" y="225" text-anchor="start">Rind</text></g>
+            <g class="node node--3"><circle cx="220" cy="370" r="9"/><text x="220" y="408" text-anchor="middle">Mist</text></g>
+            <g class="node node--4"><circle cx="70" cy="220" r="9"/><text x="50" y="225" text-anchor="end">Boden</text></g>
+          </svg>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 · WAS: pan. Fünf Fakten, gleiches Schema. -->
+  <section id="bekommen" class="ground-paper2" data-sc-act="pan" data-sc-span="4.2">
+    <div data-sc-stage class="gets">
+      <div class="rail" data-sc-pan="0.04">
+        <div class="rail__lead sc-stack">
+          <p class="sc-label">Was du bekommst</p>
+          <h2 class="sc-display sc-display--md">Rindfleisch, das man zurückverfolgen kann.</h2>
+          <p class="sc-body">Fünf Dinge, die wir dir zusagen können.</p>
+        </div>
+        <article class="item">
+          <div data-sc-tilt="4"><img src="assets/img/herde-brunnen.webp" srcset="assets/img/herde-brunnen-m.webp 900w, assets/img/herde-brunnen.webp 2000w" sizes="26rem" width="2000" height="1480" loading="lazy" alt="Die Herde am Holzbrunnen auf der Weide unter blauem Himmel."></div>
+          <h3>Weiderind</h3>
+          <p>Mutterkuhherde im Herdenverband. Von April bis November auf der Weide, im Winter und bei Schlechtwetter mit Zugang zum Stall.</p>
+        </article>
+        <article class="item">
+          <div data-sc-tilt="4"><img src="assets/img/kuh-portrait.webp" srcset="assets/img/kuh-portrait-m.webp 900w, assets/img/kuh-portrait.webp 2000w" sizes="26rem" width="1500" height="2000" loading="lazy" alt="Eine rotbunte Kuh blickt neugierig in die Kamera."></div>
+          <h3>Bio</h3>
+          <p>Wir wirtschaften nach den Richtlinien von Bio Austria. Kein Soja, kein Mais, kein zugekaufter Dünger.</p>
+        </article>
+        <article class="item">
+          <div data-sc-tilt="4"><img src="assets/img/lukas-stall.webp" srcset="assets/img/lukas-stall-m.webp 900w, assets/img/lukas-stall.webp 2000w" sizes="26rem" width="2000" height="1500" loading="lazy" alt="Lukas mit der Heugabel im Stall bei den Kühen."></div>
+          <h3>Eigenes Futter</h3>
+          <p>Grünlandsilage und Heu von den eigenen Wiesen. Wenig Getreide, nur zum Locken, vom eigenen Acker.</p>
+        </article>
+        <article class="item">
+          <div data-sc-tilt="4"><img src="assets/img/herde-schatten.webp" srcset="assets/img/herde-schatten-m.webp 900w, assets/img/herde-schatten.webp 2000w" sizes="26rem" width="2000" height="1500" loading="lazy" alt="Die Herde im tiefen Abendlicht, lange Schatten auf der Wiese."></div>
+          <h3>Kreislauf</h3>
+          <p>Der Dünger kommt von den Rindern selbst. 20 Hektar Grünland, 3 Hektar Acker, alles aus einer Hand.</p>
+        </article>
+        <article class="item">
+          <div data-sc-tilt="4"><img src="assets/img/steak.webp" srcset="assets/img/steak-m.webp 900w, assets/img/steak.webp 2000w" sizes="26rem" width="2000" height="1314" loading="lazy" alt="Zwei rohe Steakstücke mit Rosmarin und Gewürzen."></div>
+          <h3>Handarbeit</h3>
+          <p>Jedes Stück wird von Hand zugeschnitten. Als Paket (4 oder 8 Kilo) oder einzeln, nach Vorbestellung.</p>
+        </article>
+        <div class="rail__end sc-stack">
+          <p class="sc-body">Immer nur nach Reservierung für die nächste Auslieferung, damit nichts übrig bleibt.</p>
+          <a class="btn btn--ink" href="#reservieren" data-cta-anchor>Wann ist der nächste Termin?</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 · PARTNERBETRIEB: pin, Fotos wechseln mit der Reise -->
+  <section id="kuhhperation" class="ground-paper" data-sc-act="pin" data-sc-span="4.2">
+    <div data-sc-stage class="koop">
+      <div class="koop__photos" aria-hidden="false">
+        <figure data-sc-cue="0 0.3 0">
+          <img src="assets/img/herde-nah.webp" srcset="assets/img/herde-nah-m.webp 900w, assets/img/herde-nah.webp 2000w" sizes="(max-width: 800px) 92vw, 50vw" width="2000" height="1500" alt="Rinder der Herde in Pemperreith auf der Weide.">
+          <figcaption>Pemperreith. Foto: PEMBEEF</figcaption>
+        </figure>
+        <figure data-sc-cue="0.28 0.66 0.3">
+          <img src="assets/img/kuhhperation-04.webp" srcset="assets/img/kuhhperation-04-m.webp 900w, assets/img/kuhhperation-04.webp 2000w" sizes="(max-width: 800px) 92vw, 50vw" width="2000" height="1333" alt="Beide Familien stehen an einem Weidezaun, dahinter die Rinder und das Tal.">
+          <figcaption>Prannleithen. Foto: Matthias Kainz</figcaption>
+        </figure>
+        <figure data-sc-cue="0.64">
+          <img src="assets/img/kuhhperation-14.webp" srcset="assets/img/kuhhperation-14-m.webp 900w, assets/img/kuhhperation-14.webp 2000w" sizes="(max-width: 800px) 92vw, 50vw" width="2000" height="1333" alt="Eine Kuh mit gelber Ohrmarke blickt direkt in die Kamera.">
+          <figcaption>Prannleithen. Foto: Matthias Kainz</figcaption>
+        </figure>
+      </div>
+      <div class="koop__text">
+        <p class="sc-label">Kuhhperation</p>
+        <h2 class="sc-display sc-display--md">Unsere Rinder reifen bei Freunden.</h2>
+        <div class="koop__steps">
+          <div data-sc-cue="0.02 0.3 0.25">
+            <p>Bei uns leben die Rinder im Herdenverband auf der Weide. Die weiblichen müssen mit etwa zehn Monaten die Herde verlassen: sonst besteht das Risiko mit dem Stier, und die Mutterkuh braucht Trockenzeit und Pause, bevor das nächste Kalb kommt.</p>
+          </div>
+          <div data-sc-cue="0.28 0.66 0.3">
+            <p>Der Biobauernhof Prannleithen empfängt nicht nur Urlaubsgäste. Hier verbringen auch unsere PEMBEEF Rinder eine Zeit. Sie nutzen die Weiden dort, um noch ideal zu reifen.</p>
+            <p class="facts">Mit 10 bis 12 Monaten kommen sie hin. 5 bis 8 Monate bleiben sie.</p>
+          </div>
+          <div data-sc-cue="0.64">
+            <p>Danach kommen sie zum Schlachter in Erlauf, zu Kohl &amp; Babinger.</p>
+            <p><a class="textlink" href="https://www.prannleithen.at/" rel="noopener">Zum Biohof Prannleithen</a></p>
+          </div>
+        </div>
+        <div class="koop__route" aria-hidden="true">
+          <span class="route__fill"></span>
+          <span class="route__stop" style="left:0">Pemperreith</span>
+          <span class="route__stop" style="left:38%">Prannleithen</span>
+          <span class="route__stop" style="left:100%">Erlauf</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 · WO: flow, dunkler Abschluss -->
+  <section id="reservieren" class="sc-section ground-moss close" data-sc-act="flow">
+    <div class="sc-wrap close__wrap">
+      <div class="close__lead sc-stack" data-sc-in data-sc-stagger="70">
+        <p class="sc-label">Wo du es bekommst</p>
+        <h2 class="sc-display sc-display--lg">Reservieren, dann abholen.</h2>
+        <p class="sc-lede">Es gibt Rindfleisch nur auf Vorbestellung für die nächste Auslieferung. So wird nichts weggeworfen.</p>
+        <div class="termin" id="termin" data-state="loading" aria-live="polite">
+          <p class="termin__k">Nächste Auslieferung</p>
+          <p class="termin__v" id="termin-v">Wird geladen …</p>
+          <p class="termin__s" id="termin-s"></p>
+        </div>
+        <a class="btn" href="https://wa.me/436998175894?text=Hallo%2C%20ich%20m%C3%B6chte%20Rind%20f%C3%BCr%20die%20n%C3%A4chste%20Auslieferung%20reservieren." data-cta>Rind reservieren</a>
+      </div>
+      <div class="close__where" data-sc-in data-sc-stagger="80">
+        <section>
+          <h3>Direkt bei uns</h3>
+          <p>Per WhatsApp, E-Mail oder telefonisch.</p>
+          <ul class="plain">
+            <li><a href="https://wa.me/436998175894">WhatsApp +43 699 81758949</a></li>
+            <li><a href="tel:+436998175894">Telefon +43 699 81758949</a></li>
+            <li><a href="mailto:info@pembeef.at">info@pembeef.at</a></li>
+          </ul>
+          <p class="small">Biobauernhof Pemperreith, Pemperreith 4, 3681 Hofamt Priel</p>
+        </section>
+        <section>
+          <h3>d’Greisslerei</h3>
+          <p>Hauptplatz 6, 3243 St. Leonhard am Forst. Reservieren und abholen.</p>
+          <ul class="plain">
+            <li>Mo, Mi, Do, Fr 8 bis 18 Uhr</li>
+            <li>Di 8 bis 13 Uhr, Sa 8 bis 12 Uhr</li>
+            <li><a href="https://www.d-greisslerei.at/bestellungen/rind/" rel="noopener">Online bestellen</a></li>
+          </ul>
+        </section>
+        <section>
+          <h3>SPAR Yspertal</h3>
+          <p>Ausgewählte Produkte. Hauptstraße 35, 3683 Yspertal.</p>
+          <ul class="plain">
+            <li><a href="https://www.spar.at/standorte/spar-yspertal-3683-hauptstrasse-35" rel="noopener">Standort und Öffnungszeiten</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <footer class="foot sc-wrap">
+      <img src="assets/logo-pembeef.svg" width="72" height="72" alt="">
+      <div>
+        <p>PEMBEEF, Biobauernhof Pemperreith, Pemperreith 4, 3681 Hofamt Priel</p>
+        <p class="small"><a href="#impressum">Impressum</a> · <a href="#datenschutz">Datenschutz</a></p>
+        <p class="small credits">Bildnachweis: Eva Lechner (Porträt Julia und Lukas), Matthias Kainz (Prannleithen), Manuel Tauber-Romieri (Hofporträt), Lukas Enengel (Hund). Weitere Fotos und Drohnenaufnahme: PEMBEEF.</p>
+      </div>
+    </footer>
+  </section>
+
+</main>
+
+<script src="scrollcraft.js"></script>
+<script src="site.js"></script>
+</body>
+</html>

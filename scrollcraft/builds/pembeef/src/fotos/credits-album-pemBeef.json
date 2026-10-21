@@ -1,0 +1,90 @@
+{
+ "weide-sonne": {
+  "album_index": 284,
+  "artist": null,
+  "copyright": null,
+  "model": null,
+  "date": "",
+  "size": "1145x720"
+ },
+ "herde-gruen": {
+  "album_index": 280,
+  "artist": null,
+  "copyright": null,
+  "model": null,
+  "date": "",
+  "size": "1280x960"
+ },
+ "herde-zaun": {
+  "album_index": 7,
+  "artist": null,
+  "copyright": null,
+  "model": "Nexus 5",
+  "date": "2015:06:10 18:29:49",
+  "size": "3264x2448"
+ },
+ "herde-brunnen": {
+  "album_index": 243,
+  "artist": null,
+  "copyright": null,
+  "model": "Nexus 5",
+  "date": "2016:08:26 09:33:29",
+  "size": "3286x2432"
+ },
+ "lukas-brunnen": {
+  "album_index": 144,
+  "artist": null,
+  "copyright": null,
+  "model": "Nexus 5",
+  "date": "2016:07:18 18:51:28",
+  "size": "3264x2448"
+ },
+ "lukas-stall": {
+  "album_index": 192,
+  "artist": null,
+  "copyright": null,
+  "model": "Nexus 5",
+  "date": "2016:07:18 19:06:35",
+  "size": "3264x2448"
+ },
+ "steak": {
+  "album_index": 214,
+  "artist": null,
+  "copyright": null,
+  "model": "DMC-GH4",
+  "date": "2017:10:03 11:08:02",
+  "size": "3000x1971"
+ },
+ "herde-nah": {
+  "album_index": 134,
+  "artist": null,
+  "copyright": null,
+  "model": "Nexus 5",
+  "date": "2016:07:16 17:44:58",
+  "size": "3264x2448"
+ },
+ "herde-schatten": {
+  "album_index": 5,
+  "artist": null,
+  "copyright": null,
+  "model": "Nexus 5",
+  "date": "",
+  "size": "3264x2448"
+ },
+ "weide-abend": {
+  "album_index": 236,
+  "artist": null,
+  "copyright": null,
+  "model": "Nexus 5",
+  "date": "2016:08:23 18:53:14",
+  "size": "3286x2432"
+ },
+ "kuh-portrait": {
+  "album_index": 137,
+  "artist": null,
+  "copyright": null,
+  "model": "Nexus 5",
+  "date": "2016:07:16 17:45:07",
+  "size": "2448x3264"
+ }
+}
